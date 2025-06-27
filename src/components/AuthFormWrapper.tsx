@@ -27,7 +27,7 @@ const AuthFormWrapper: React.FC<AuthFormWrapperProps> = ({ title, description, c
   console.log('AuthFormWrapper loaded');
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-50 dark:bg-background p-4 sm:p-6">
+    <div className="flex items-center justify-center min-h-screen bg-background p-4 sm:p-6">
       <Card className="w-full max-w-sm shadow-lg">
         <CardHeader className="text-center">
           <CardTitle className="text-2xl font-bold">{title}</CardTitle>
